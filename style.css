@@ -1,10 +1,8 @@
 body{
-    background:url(chandu.JPG);
-    background-size:cover;
-    background-position: center;
+
 }
 html{
-    height: 100%;
+    /* height: 100%; */
 }
 #content{
     text-align:center;
@@ -25,4 +23,50 @@ h1{
 }
 h3{
     color: whitesmoke;
+}
+.col-lg-4{
+    /* background: blue; */
+ 
+}
+.container1{
+    padding-bottom:10%;
+    background:linear-gradient(180deg,rgba(23,2,58,.95) 0,rgba(23,2,58,.85));
+    background-size:cover;
+    background-position: center;
+    
+}
+.container2{
+    background:antiquewhite;
+    height:600px;
+    padding-top: 50px;
+    text-align: justify;
+}
+.container3{
+    background:paleturquoise;
+    height:500px;
+}
+.container4{
+    background:rebeccapurple;
+    height:600px;
+}
+.navbar{
+    background:rgba(35, 18, 67);
+    min-height: 90px;
+    border-bottom:none;
+    font-size: 1.2em;
+    line-height: 50px;
+    margin-bottom:0px;
+    color: white;
+    padding-top:20px;
+}
+.nav li{
+    padding-right:30px;
+
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background: none;
+    color:rgb(191, 199, 238);
 }
