@@ -10,7 +10,7 @@
     </head>
 
     <body>
-            <nav class="navbar navbar-default">
+            <nav class="navbar navbar-default navbar-fixed-top">
                     <div class="container">
                       <!-- Brand and toggle get grouped for better mobile display -->
                       <div class="navbar-header">
@@ -26,9 +26,9 @@
                       <!-- Collect the nav links, forms, and other content for toggling -->
                       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                          <li class="active"><a href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a></li>
-                          <li><a href="#container2"><i class="fas fa-code"></i> About</a></li>
-                          <li><a href="#container4"><i class="fas fa-user"></i> Contact</a></li>
+                          <li ><a href="index.html"><i class="fas fa-home"></i> HOME <span class="sr-only">(current)</span></a></li>
+                          <li><a href="#container2"><i class="fas fa-code"></i> ABOUT</a></li>
+                          <li><a href="#container3"><i class="fas fa-user"></i> CONTACT</a></li>
                         </ul>
 
                       </div><!-- /.navbar-collapse -->
@@ -37,11 +37,8 @@
 
             <div class="container-fluid ">
                 <div class="row container1">
-
                   <div class="col-lg-12">
-
                     <div id="content">
-
                         <h1>Chandrashekar Palle</h1>
                         <h3> Copenhagen</h3>
                         <h3>Java Script - HTML - CSS</h3> 
@@ -52,47 +49,53 @@
                   </div>
                 </div>
                 <div id="container2" class="row container2">
-                    <h2 class="col-lg-12">New Challenges</h2>
+                    <h2 class="col-lg-12">ABOUT</h2>
+                  <div class="col-lg-12">
+                    <h4>Education</h4>
+                    <ul>
+                      <li>I have a master degree in computer science from Halmstad University, 
+                          Sweden</li>
+                      <li>I did my bachelors in engineering from JNTU,India.</li>  
+                      <li>Hack your future</li>
+                      <li>Udemy</li>
+                      <li>Freecodecamp</li>
+                    </ul>
 
+                  </div>
+                  <h2 class="col-lg-12">SKILLS</h2>
                   <div class="col-lg-4">
-                    <p>Our world is changing faster than ever before, 
-                      and with constant change comes anxiety and instability.
-                       New communication methods, work patterns and family structures 
-                       mean that many aspects of our modern daily lives would be unrecognizable
-                        to our predecessors and, just when we think we’ve conquered one challenge
-                         or reorganisation, along comes another.
-
-                    </p>
+                    <img src="HTML5.png" alt="html5 image">
                   </div>
                   <div class="col-lg-4">
-                      <p>Our world is changing faster than ever before, 
-                          and with constant change comes anxiety and instability.
-                           New communication methods, work patterns and family structures 
-                           mean that many aspects of our modern daily lives would be unrecognizable
-                            to our predecessors and, just when we think we’ve conquered one challenge
-                             or reorganisation, along comes another.
-    
-                        </p> 
+                    <img src="CSS3.png">
                   </div>
                   <div class="col-lg-4">
-                      <p>
-                        Our world is changing faster than ever before, 
-                        and with constant change comes anxiety and instability.
-                        New communication methods, work patterns and family structures 
-                        mean that many aspects of our modern daily lives would be unrecognizable
-                        to our predecessors and, just when we think we’ve conquered one challenge
-                        or reorganisation, along comes another.
-                      </p>
+                    <img src="js.png">
                   </div>
                 </div>
                 <div id="container3" class="row container3">
-
+                    
+                        <h2>Contact Form</h2>
+                        <form method="POST" action="https://formspree.io/chandrasr.palle@gmail.com">
+                            <div class="form-group">
+                                <label for="SenderEmail1">Email address</label>
+                                <input class="email form-control" type="email"  id="SenderEmail1"name="email" placeholer="email address">
+                            </div>
+                            <div class="form-group">
+                                <label for="SenderName">Name</label>
+                                <input class="name form-control" name="subject" id="SenderName" type="text" place holder="Enter name">
+                            </div>
+                            <div class="form-group">
+                                <label for="SenderMessage">Message</label>
+                                <textarea class="subject form-control" name="message" id="SenderMessage" placeholder="Your message" rows="7"></textarea>
+                            </div>
+                            <button class = "submit btn btn-default" type="submit">Send</button>
+                            <div class="result help-block">
+                                Acknowledgement will appear here
+                                </div>
+                        </form>  
+                    
                 </div>
-                <div id="container4" class="row container4">
-
-                </div>
-
-
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      

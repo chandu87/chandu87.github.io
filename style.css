@@ -1,5 +1,5 @@
 body{
-
+ padding-top:65px;
 }
 html{
     /* height: 100%; */
@@ -19,7 +19,7 @@ hr{
 h1{
     color:whitesmoke;
     font-weight:700;
-    font-size: 4em;
+    font-size: 3em;
 }
 h3{
     color: whitesmoke;
@@ -33,31 +33,38 @@ h3{
     background:linear-gradient(180deg,rgba(23,2,58,.95) 0,rgba(23,2,58,.85));
     background-size:cover;
     background-position: center;
+ 
     
+}
+.container1::after{
+    /* clear: both; */
 }
 .container2{
     background:antiquewhite;
-    height:600px;
-    padding-top: 50px;
+    height:750px;
+    padding-top: 100px;
+    padding-left:5%;
+
     text-align: justify;
 }
 .container3{
     background:paleturquoise;
-    height:500px;
+    height:750px;
+    padding-top: 100px;
+    padding-left:5%;
+    padding-right:20%;
+
 }
-.container4{
-    background:rebeccapurple;
-    height:600px;
-}
+
 .navbar{
     background:rgba(35, 18, 67);
     min-height: 90px;
     border-bottom:none;
     font-size: 1.2em;
     line-height: 50px;
-    margin-bottom:0px;
     color: white;
     padding-top:20px;
+    letter-spacing: 3px;
 }
 .nav li{
     padding-right:30px;
@@ -69,4 +76,9 @@ h3{
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background: none;
     color:rgb(191, 199, 238);
+}
+img{
+    margin-top:20px;
+    width:150px;
+    height:200px;
 }
