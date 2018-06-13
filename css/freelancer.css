@@ -382,6 +382,8 @@ a:focus, a:hover, a:active {
 .portfolio h3{
   margin-bottom: 20px;
   margin-top: 20px;
+  letter-spacing: 1px;
+  color:#20c997;
 }
 .portfolio img{
   border: 1px solid #4a4b4c85;
